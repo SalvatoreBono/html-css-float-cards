@@ -1,0 +1,65 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main-container {
+   max-width: 900px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+header,
+p {
+   text-align: center;
+}
+
+header {
+   font-size: 20px;
+   padding-top: 15px;
+   padding-bottom: 40px;
+   color: rgb(229, 49, 112);
+}
+
+p {
+   padding-bottom: 40px;
+}
+
+.card::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.card {
+   width: 300px;
+   height: 75px;
+   background-color: rgb(15, 14, 23);
+   float: left;
+   margin-right: 35px;
+   margin-bottom: 45px;
+   color: white;
+}
+
+img {
+   max-height: 100%;
+   float: left;
+   margin-right: 10px;
+
+}
+
+.team-info {
+   font-size: 10px;
+   margin-top: 10px;
+   line-height: 20px;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(111, 205, 238);
+}
