@@ -39,12 +39,11 @@ p {
 }
 
 .card {
-   width: 30%;
+   width: calc(33.3% - 30px);
    height: 75px;
    background-color: rgb(15, 14, 23);
    float: left;
-   margin-right: 25px;
-   margin-bottom: 40px;
+   margin: 15px;
    color: white;
    font-family: Arial, Helvetica, sans-serif;
 }
